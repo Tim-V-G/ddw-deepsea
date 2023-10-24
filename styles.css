@@ -15,6 +15,10 @@
     background-size: cover;
 }
 
+#layout {
+    position: relative;
+}
+
 #top{
     height: 100vh;
     background-color: transparent;
@@ -46,12 +50,27 @@
     font-size: 26px;
 }
 
+.line-container {
+    position: absolute;
+    top: 390px;
+    right: 30px;
+    display: flex;
+}
+
 #line{
     width: 3px;
     background-color: white;
-    height: 1600px;
-    position: absolute;
-    top: 0;
-    right: 30px;
+    height: 1210px;
     z-index: 100;
+}
+
+.line-text {
+    color: white;
+    padding-right: 5px;
+}
+
+.line-text2{
+    margin-top: 1000px;
+    color: white;
+    padding-right: 5px;
 }
