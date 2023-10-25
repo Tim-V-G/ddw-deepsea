@@ -1,6 +1,8 @@
 function an1(){
     close()
     document.getElementById("an1-info").style.display= "flex";
+    document.getElementById("an1-info").style.justifyContent= "center";
+    document.getElementById("an1-info").style.flexDirection= "column";
 }
 
 function an2(){
