@@ -397,3 +397,13 @@ html {
     font-weight: lighter;
 
 }
+
+.zone{
+    width: 1500px;
+    height: 80px;
+    background-color: rgb(33, 31, 31);
+    border-radius: 30px;
+    margin-left: 140px;
+    display: flex;
+    color: darkgray;
+}
