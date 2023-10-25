@@ -338,3 +338,49 @@ html {
     height: 248px;
     width: 248px;
 }
+.vak{
+    width: 1100px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 30px;
+    margin-left: 140px;
+    display: flex;
+}
+.diver{
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 370px;
+    height: 225px;
+    box-shadow: 0 15px 15px rgba(0,0,0,.35);
+}
+
+.tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+    gap: 5px;
+}
+
+.tekst h1{
+    font-family:Arial;
+    font-size:19px;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+
+}
+.stripe{
+    width: 130px;
+    height: 2px;
+    background-color: white;
+}
+.tekst h3{
+    margin-top: 15px;
+    font-size:13px;
+    letter-spacing:2px;
+    font-weight: lighter;
+
+}
