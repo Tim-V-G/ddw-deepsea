@@ -298,12 +298,12 @@ html {
 
 .hex-title{
     width:2px;
-    height:90px;
+    height:48px;
     background: #ffffff;
     position:absolute;
     margin:auto;
     left: 30px;
-    top:0;bottom:0;
+    top:-49px;bottom:0;
     z-index: 900;
     font-family:Arial;
     font-size:14px;
@@ -336,7 +336,8 @@ html {
     z-index: 800;
 }
 .hex-img img{
-    max-width:100%;
+    max-height:100%;
+
 
 }
 .hex-hide{
@@ -394,4 +395,18 @@ html {
     font-size:13px;
     letter-spacing:2px;
     font-weight: lighter;
+<<<<<<< HEAD
+=======
+
+}
+
+.zone{
+    width: 1500px;
+    height: 80px;
+    background-color: rgb(33, 31, 31);
+    border-radius: 30px;
+    margin-left: 140px;
+    display: flex;
+    color: darkgray;
+>>>>>>> ba872f57e2dfab5aebf1fd5d59253990c82f2a8a
 }
