@@ -64,7 +64,7 @@ html {
 #line{
     width: 3px;
     background-color: white;
-    height: 2039px;
+    height: 2779px;
     z-index: 100;
 }
 
@@ -80,7 +80,13 @@ html {
 }
 
 .line-text3{
-    margin-top: 950px;
+    margin-top: 400px;
+    color: white;
+    padding-right: 5px;
+}
+
+.line-text4{
+    margin-top: 1300px;
     color: white;
     padding-right: 5px;
 }
@@ -169,6 +175,12 @@ html {
     height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, #5696BA 0%, #5696BA 56.96%, #4575A0 100%);
+}
+
+#m1000{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #4575A0 0%, #1A2F43 100%);
 }
 
 
