@@ -64,7 +64,7 @@ html {
 #line{
     width: 3px;
     background-color: white;
-    height: 2779px;
+    height: 3517px;
     z-index: 100;
 }
 
@@ -86,7 +86,19 @@ html {
 }
 
 .line-text4{
-    margin-top: 1300px;
+    margin-top: 550px;
+    color: white;
+    padding-right: 5px;
+}
+
+.line-text5{
+    margin-top: 700px;
+    color: white;
+    padding-right: 5px;
+}
+
+.line-text6{
+    margin-top: 700px;
     color: white;
     padding-right: 5px;
 }
@@ -181,6 +193,12 @@ html {
     height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, #4575A0 0%, #1A2F43 100%);
+}
+
+#m1500{
+    height: 100vh;
+    width: 100%;
+    background-color: #1A2F43;
 }
 
 
@@ -293,19 +311,47 @@ html {
 }
 #an2-info{
     color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 50%;
+    margin: auto;
     display: none;
+    margin-top: 30px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
 }
 #an3-info{
     color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 50%;
+    margin: auto;
     display: none;
+    margin-top: 30px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
 }
 #an4-info{
     color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 50%;
+    margin: auto;
     display: none;
+    margin-top: 30px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
 }
 #an5-info{
     color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 50%;
+    margin: auto;
     display: none;
+    margin-top: 30px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
 }
 .border{
     position: absolute;
@@ -412,17 +458,14 @@ html {
     font-size:13px;
     letter-spacing:2px;
     font-weight: lighter;
-<<<<<<< HEAD
-=======
-
 }
 
 .zone{
-    width: 1500px;
+    width: 80%;
+    margin: auto;
     height: 30px;
     background-color: rgb(33, 31, 31);
     border-radius: 30px;
-    margin-left: 140px;
     display: flex;
     color: darkgray;
     font-size: 10px;
