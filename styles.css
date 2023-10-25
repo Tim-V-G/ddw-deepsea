@@ -419,11 +419,14 @@ html {
 
 .zone{
     width: 1500px;
-    height: 80px;
+    height: 30px;
     background-color: rgb(33, 31, 31);
     border-radius: 30px;
     margin-left: 140px;
     display: flex;
     color: darkgray;
->>>>>>> ba872f57e2dfab5aebf1fd5d59253990c82f2a8a
+    font-size: 10px;
+    padding-left: 9px;
+    font-weight: lighter;
+
 }
