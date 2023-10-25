@@ -56,7 +56,7 @@ html {
 
 .line-container {
     position: absolute;
-    top: 390px;
+    top: 300px;
     right: 30px;
     display: flex;
 }
@@ -64,7 +64,7 @@ html {
 #line{
     width: 3px;
     background-color: white;
-    height: 1210px;
+    height: 2039px;
     z-index: 100;
 }
 
@@ -75,6 +75,12 @@ html {
 
 .line-text2{
     margin-top: 1000px;
+    color: white;
+    padding-right: 5px;
+}
+
+.line-text3{
+    margin-top: 950px;
     color: white;
     padding-right: 5px;
 }
@@ -98,6 +104,7 @@ html {
     opacity: 0;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: move 3s ease-out infinite;
+    cursor: pointer;
 }
 
 .chevron:first-child {
@@ -151,4 +158,15 @@ html {
     to {
         opacity: 1;
     }
+}
+
+#m300{
+    height: 860.8px;
+    width: 100%;
+}
+
+#m600{
+    height: 100vh;
+    width: 100%;
+    background-color: #5696BA;
 }
